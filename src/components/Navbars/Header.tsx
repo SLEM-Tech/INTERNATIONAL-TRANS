@@ -122,13 +122,10 @@ const Header = () => {
 
 	const handleSearchClick = () => {
 		if (isExpanded && searchValue.trim()) {
-			// Perform search
 			setIsSearchLoading(true);
-			// Your search logic here...
-			console.log("Searching for:", searchValue);
+			router.push(`/search?${searchValue}`);
 			setTimeout(() => setIsSearchLoading(false), 1000);
 		} else {
-			// Toggle expansion
 			setIsExpanded(!isExpanded);
 		}
 	};
