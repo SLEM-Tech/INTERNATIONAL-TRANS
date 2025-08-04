@@ -122,13 +122,10 @@ const Header = () => {
 
 	const handleSearchClick = () => {
 		if (isExpanded && searchValue.trim()) {
-			// Perform search
 			setIsSearchLoading(true);
-			// Your search logic here...
-			console.log("Searching for:", searchValue);
+			router.push(`/search?${searchValue}`);
 			setTimeout(() => setIsSearchLoading(false), 1000);
 		} else {
-			// Toggle expansion
 			setIsExpanded(!isExpanded);
 		}
 	};
@@ -262,8 +259,8 @@ const Header = () => {
 				className={`flex slg:flex-col w-full justify-center items-center z-50 transition bg-white drop-shadow-md fixed top-0`}
 			>
 				{/* Desktop */}
-				<div className='hidden slg:grid grid-cols-4 items-center w-full py-1 max-w-[1300px] z-30 px-5 lg:px-2 xl:px-0'>
-					<LogoImage className='w-[100px] lg:w-[120px] col-span-1' />
+				<div className='hidden slg:grid grid-cols-4 items-center w-full py-3 max-w-[1300px] z-30 px-5 lg:px-2 xl:px-0'>
+					<LogoImage className='!w-[40px] lg:!w-[60px] col-span-1' />
 
 					<div className='flex justify-center  items-center w-fit mx-auto gap-12 overflow-hidden h-10 col-span-2'>
 						{headerNavLinks.map((link) => (
@@ -449,7 +446,7 @@ const Header = () => {
 				</div>
 
 				{/* Mobile */}
-				<div className='flex flex-col items-center w-full slg:hidden px-2 xs:px-4'>
+				<div className='flex flex-col items-center w-full slg:hidden py-3 px-2 xs:px-4'>
 					<div className='grid grid-cols-2'>
 						<div className='flex items-center gap-1'>
 							<div className=''>
@@ -458,7 +455,7 @@ const Header = () => {
 									className='text-2xl text-primary hover:scale-105 transition-[.5]'
 								/>
 							</div>
-							<LogoImage className='rounded-sm !w-[100px] ' />
+							<LogoImage className='rounded-sm !w-[50px] lg:!w-[60px] col-span-1' />
 						</div>
 
 						<div className='flex gap-2 justify-end items-center cursor-pointer'>
