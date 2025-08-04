@@ -27,10 +27,12 @@ import goldenImg from "../transco/golden.png";
 import salvaImg from "../transco/salva.png";
 import travelImg from "../transco/travel.png";
 import graphicsImg from "../transco/graphics.png";
+import intlTransco from "../transco/intl-transco.jpg";
 import bedImg from "../transco/bed.png";
 
 export {
 	banner,
+	intlTransco,
 	bedImg,
 	furnitureImg,
 	goldenImg,
