@@ -484,7 +484,7 @@ const Page = () => {
 							<p className='text-xs md:text-sm xl:text-base mb-4'>
 								At International Trans Co Supply Limited, we are committed to
 								delivering quality general merchandise and contract services
-								that meet our clients' expectations. Our refund policy is
+								that meet our clients&apos; expectations. Our refund policy is
 								designed to provide fair resolution while protecting both client
 								and company interests.
 							</p>
@@ -532,7 +532,7 @@ const Page = () => {
 											inability to proceed
 										</li>
 										<li>
-											Milestone-based refunds if work doesn't meet agreed
+											Milestone-based refunds if work doesn&apos;t meet agreed
 											specifications
 										</li>
 										<li>
@@ -558,7 +558,7 @@ const Page = () => {
 										<li>Perishable goods and time-sensitive materials</li>
 										<li>Contract services completed and accepted by client</li>
 										<li>
-											Third-party vendor costs already incurred on client's
+											Third-party vendor costs already incurred on client&apos;s
 											behalf
 										</li>
 										<li>Consultation fees and site assessment charges</li>

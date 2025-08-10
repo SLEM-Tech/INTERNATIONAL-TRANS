@@ -1,8 +1,8 @@
-const websiteUrl = "";
+const websiteUrl = "https://international-trans.vercel.app";
 export const websiteName = "International Trans Co Supply Limited";
 
 export const SEODATA = {
-	defaultOGImage: ``,
+	defaultOGImage: `/_next/static/media/intl-transco.472105b8.jpg`,
 	default: {
 		title: websiteName,
 		description: `This is ${websiteName}`,
