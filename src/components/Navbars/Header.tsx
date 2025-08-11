@@ -260,7 +260,7 @@ const Header = () => {
 			>
 				{/* Desktop */}
 				<div className='hidden slg:grid grid-cols-4 items-center w-full py-3 max-w-[1300px] z-30 px-5 lg:px-2 xl:px-0'>
-					<LogoImage className='!w-[40px] lg:!w-[60px] col-span-1' />
+					<LogoImage className='rounded-sm !w-[50px] lg:!w-[60px] col-span-1' />
 
 					<div className='flex justify-center  items-center w-fit mx-auto gap-12 overflow-hidden h-10 col-span-2'>
 						{headerNavLinks.map((link) => (
@@ -381,7 +381,7 @@ const Header = () => {
 								<DropdownTrigger>
 									<button
 										type='button'
-										className='flex items-center gap-1 px-3 py-2 bg-white border border-gray-200 rounded-full hover:bg-gray-50 transition-colors duration-200 focus:outline-none focus:ring-2 focus:ring-primaryColor-400'
+										className='flex items-center gap-1 px-3 py-1 bg-white border border-gray-200 rounded-full hover:bg-gray-50 transition-colors duration-200 focus:outline-none focus:ring-2 focus:ring-primaryColor-400'
 										aria-label='Currency selector'
 									>
 										<span className='font-medium text-gray-800'>

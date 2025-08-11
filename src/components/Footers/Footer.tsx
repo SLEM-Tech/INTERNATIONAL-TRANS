@@ -118,7 +118,7 @@ const Footer = () => {
 				<div className='flex flex-col lg:flex-row gap-12 py-12'>
 					{/* Left Section - Brand Info */}
 					<div className='lg:w-1/3 space-y-6'>
-						<LogoImage className='h-10 w-auto' />
+						<LogoImage className='rounded-sm !w-[50px] lg:!w-[60px]' />
 						<p className='text-gray-600 text-sm'>
 							The best e-commerce store for your needs!
 						</p>
