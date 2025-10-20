@@ -13,12 +13,12 @@ const AllCategorySection = () => {
 				{/* LEFT TEXT CONTENT */}
 				<div className='lg:col-span-6 z-10 text-black space-y-2 lg:space-y-6 h-full text-center lg:text-start flex flex-col justify-center'>
 					<h3 className='text-3xl sm:text-4xl md:text-5xl lg:text-6xl tracking-tight leading-tight md:leading-8 max-w-md'>
-						10% discount on all Sony Products
+						10% discount on all Products
 					</h3>
 
 					<p className='text-base md:text-lg lg:text-xl lg:leading-[50px] text-gray-600 max-w-md'>
-						You can explore ans shop many differnt collection from various
-						barands here.
+						You can explore and shop many different collection from various
+						brands here.
 					</p>
 
 					<Link
@@ -49,7 +49,7 @@ const AllCategorySection = () => {
 			<div className='bg-white relative'>
 				<div className='w-full space-y-4 lg:space-y-8 mt-8 lg:mt-0 pt-7 lg:py-14 lg:px-5 max-w-[1256px] mx-auto'>
 					<div className='flex w-full justify-center gap-1 sm:gap-12 overflow-x-auto scroll-smooth overflow-y-hidden no-scrollbar'>
-						<div className='grid grid-cols-2 md:grid-cols-5 gap-4 p-4'>
+						{/* <div className='grid grid-cols-2 md:grid-cols-5 gap-4 p-4'>
 							{heroImages.map((image) => (
 								<div
 									key={image.id}
@@ -67,7 +67,14 @@ const AllCategorySection = () => {
 									</div>
 								</div>
 							))}
-						</div>
+						</div> */}
+
+						<h1 class="text-3xl lg:text-5xl sm:text-4xl font-medium text-slate-900 dark:text-slate-100
+								border-b-2 border-dashed border-slate-200 dark:border-slate-700 pb-2
+								tracking-tight">
+						Your Trusted Source for Next-Gen Electronics
+						</h1>
+
 					</div>
 				</div>
 				<Picture

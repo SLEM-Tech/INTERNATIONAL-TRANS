@@ -26,7 +26,7 @@ const page = () => {
 				<AllCategorySection />
 			</div>
 			<MiddleBanner />
-			<div className='mt-4 sm:mt-10 max-w-[1256px] mx-auto'>
+			<div className='mt-4 sm:mt-12 max-w-[1256px] mx-auto'>
 				<SortedProducts />
 			</div>
 		</AppLayout>
