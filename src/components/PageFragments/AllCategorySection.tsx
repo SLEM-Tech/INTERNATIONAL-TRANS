@@ -69,7 +69,7 @@ const AllCategorySection = () => {
 							))}
 						</div> */}
 
-						<h1 class="text-3xl lg:text-5xl sm:text-4xl font-medium text-slate-900 dark:text-slate-100
+						<h1 className="text-3xl lg:text-5xl sm:text-4xl font-medium text-slate-900 dark:text-slate-100
 								border-b-2 border-dashed border-slate-200 dark:border-slate-700 pb-2
 								tracking-tight">
 						Your Trusted Source for Next-Gen Electronics
